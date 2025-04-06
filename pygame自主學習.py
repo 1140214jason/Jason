@@ -417,7 +417,7 @@ while running:
         
     if show_pause:
         waiting = True
-        #draw_text(screen, "PAUSE", 30, WIDTH/2, HEIGHT/2)
+        draw_text(screen, "PAUSE", 30, WIDTH/2, HEIGHT/2)
         pygame.display.update()
         while waiting:
             clock.tick(FPS)
