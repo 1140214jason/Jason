@@ -426,9 +426,8 @@ while running:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                 elif event.type == pygame.KEYDOWN:
-                    if event.key == pygame.K_p:
-                        show_pause = False
-                        waiting = False
+                    show_pause = False
+                    waiting = False
 
     clock.tick(FPS)
     #取得輸入
